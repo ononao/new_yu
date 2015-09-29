@@ -2,10 +2,8 @@
 %html{:lang => 'ja'}
   %head
     %title
-      = current_page.data.title || "おのなお.tokyo"
-      %style{:type => 'text/css'}
-        html, body{:style => 'height: 100%; margin: 0; padding: 0;'}
-        #MapContent{:styele => 'height: 100%;'}
+      = current_page.data.title || "practice"
+
     = stylesheet_link_tag "normalize", "all"
   %body
     = partial 'layouts/header'
